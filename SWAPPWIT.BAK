@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a= 50,b = 25,c;
+	clrscr();
+	printf("enter value of:%d",c);
+	c = a;
+	a = b;
+	b = c;
+	printf("swapping the value of a and b is %d\n %d",a,b);
+	getch();
+}
